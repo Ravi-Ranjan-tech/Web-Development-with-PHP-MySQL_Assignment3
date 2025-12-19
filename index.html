@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Color Boxes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header-inner">
+      <h1 id="page-greeting">Hello, </h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <header class="header">
+      <p id="subtitle">Enter your name below to get started</p>
+    </header>
+
+    <section class="boxes-grid">
+      <button class="color-box red-box" id="red-box"><span>Red</span></button>
+      <button class="color-box blue-box" id="blue-box"><span>Blue</span></button>
+      <button class="color-box green-box" id="green-box"><span>Green</span></button>
+      <button class="color-box yellow-box" id="yellow-box"><span>Yellow</span></button>
+    </section>
+
+    <section class="input-section">
+      <form id="greet-form" class="input-form">
+        <input type="text" id="name-input" placeholder="Enter your name..." required>
+        <button type="submit" class="greet-btn">Greet Me!</button>
+      </form>
+    </section>
+
+
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
